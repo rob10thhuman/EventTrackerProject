@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Issues</title>
+</head>
+<body>
+  <div id="container">
+    <A href="api/posts">Click here to test the all posts API</A>
+    <P>
+    <form action="api/posts/" method="DELETE">
+    	//not functional due to Http get / 
+		<input type="input" class="btn btn-secondary btn-sm mr-3" name="id" value="enter ID to delete">
+		<input type="submit" class="btn btn-secondary btn-sm mr-3" value="Submit to delete">
+	</form>
+	<P>
+    <form action="api/posts/{id}" method="GET">
+		<input type="input" class="btn btn-secondary btn-sm mr-3" name="?" value="enter ID to view">
+		<input type="submit" class="btn btn-secondary btn-sm mr-3" value="Submit to view">
+	</form>
+  </div>
+</body>
+</html>
