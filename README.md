@@ -44,3 +44,8 @@ Returns a post - currently two in the db (1 or 2)
 	}
 
   This method updates a post
+
+  I also experimented with a front end:
+  http://18.223.18.233:8080/NovEventTrackerRest/
+
+  I was unable to make it work w/the exception of "all posts"
